@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Rachel Chhay | Full Stack Developer</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+
+    <link rel="icon" href="img/signature.png">
+
+  </head>
+  <body>
+
+  <div class="container">
+    <div class="content">
+        <div id="large-header" class="large-header">
+          <canvas id="canvas"></canvas>
+          <h1 class="main-title"> Rachel <br> <span id="main-title-2">Full Stack Developer</span></h1>
+        </div>
+
+        <nav class="nav-bar">
+          <a href="#about_me">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+          <a href="https://drive.google.com/file/d/0B8sLOh_9-85qaEY5T0VGRWZxV1U/view?usp=sharing" target="_blank">Resume</a>
+        </nav>
+
+
+        <a id="about_me">
+          <div class="about-me">
+
+            <h1 class="title">About Me</h1>
+            <img src="img/mypic.png" alt="Picture of Rachel Chhay">
+            <h3>Hi, I'm Rachel Chhay! <br> I'm a former Chemistry teacher turned full stack web developer. I love implementing designs as well as working with databases to create full stack websites. I am a dependable team leader who enjoys collaborating with others to reach a shared vision. From science to web development, I bring with me my analytical problem solving skills and, most importantly, my patience and passion to learn more and contribute to the team. </h3>
+          </div>
+        </a>
+
+    </div>
+
+      <section class="projects">
+        <a id="projects"></a>
+        <h1 class="title">Projects</h1>
+
+        <div class="p1">
+          <a href="https://rachelchhay.github.io/" target="_blank">
+            <img src="img/p1.png" />
+            <h3>Rachel's Restaurant Rush</h3>
+          </a>
+          <button type="button" id="modalBtn1">Learn More</button>
+
+
+        </div>
+
+        <div class="p2">
+          <a href="https://committobefit.herokuapp.com/" target="_blank">
+            <img src="img/p2.png" />
+            <h3>Commit To Be Fit</h3>
+          </a>
+          <button type="button" id="modalBtn2">Learn More</button>
+        </div>
+
+        <div class="p3">
+          <a href="https://coffeeshop-search-app.herokuapp.com/" target="_blank">
+            <img src="img/p3.png" />
+            <h3>Coffee For Coders</h3>
+          </a>
+          <button type="button" id="modalBtn3">Learn More</button>
+        </div>
+
+        <div class="p4">
+          <a href="https://football-app-frontend.herokuapp.com/" target="_blank">
+            <img src="img/p4.png" />
+            <h3>Fantasy Football Tool</h3>
+          </a>
+          <button type="button" id="modalBtn4">Learn More</button>
+        </div>
+
+
+      </section>
+
+    <a id="contact">
+      <div class="contact">
+        <h1 class="title">Contact</h1>
+
+        <p class="ref"> Feel free to contact me if you have any further questions. I'd love to hear from you!</p>
+
+        <div class="email">
+          <i class="fa fa-envelope-o" aria-hidden="true"></i>
+          <a href="mailto:chhay.rachel@gmail.com">
+            chhay.rachel@gmail.com
+          </a>
+
+        </div>
+
+        <div class="social-media">
+          <a href="https://www.linkedin.com/in/rachelchhay/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+
+          <a href="https://github.com/rachelchhay" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+
+          <a href="https://www.facebook.com/rachelchhay89" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+
+
+        </div>
+      </a>
+    </div>
+
+
+  </div><!-- /container -->
+
+  <!-- Modal 1-->
+  <div id="modal1" class="modal">
+
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h1>Rachel's Restaurant Rush</h1>
+      <h3>Front End Game</h3>
+      <h3>Built with: HTML, CSS, Javascript, and jQuery.</h3>
+      <p>Description: Rachel's Restaurant Rush is a game where you are taking orders from customers. As the orders come in, you click on the menu items to "serve" the food. As you move on to the next level, the orders are more complicated, there's a time limit, and there's more menu items. Make sure your sound's on when you're playing!</p>
+    </div>
+
+  </div>
+
+  <!-- Modal 2-->
+
+  <div id="modal2" class="modal">
+
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h1>Commit To Be Fit</h1>
+      <h3>Full Stack Application</h3>
+      <h3>Built with: CSS, Javascript, Node.js, Express, EJS, Mongoose, and RESTfulrouting.</h3>
+      <p>Description: Commit To Be Fit is a fitness app where you can watch full length workout videos. You can create an account and add your favorite workout videos to the main video list and to your profile page. I used an MVC file structure, which includes 2 models with full CRUD capabilities. I used Passport and Express Session for user authentication.</p>
+
+    </div>
+
+  </div>
+
+  <!-- Modal 3-->
+  <div id="modal3" class="modal">
+
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h1>Coffee For Coders</h1>
+      <h3>MEAN Stack Application (Group project)</h3>
+      <h3>Built with: HTML, CSS, Javascript, Mongo, Express, Angular, Node.js, Mongoose, and RESTfulrouting.</h3>
+      <h3>Team members: Sarah Anderson (Colorado) and Rick Neely (Georgia)</h3>
+      <p>Description: Coffee For Coders is a single page application where users can search for coffeeshops in their city. They can add a coffeeshop to the list of top coffeeshops in the U.S. We used an MVC file structure with 2 models, one of which has full CRUD capabilities. We used Sockets.io to create a chat box, so you can talk to other people who are on the site. We used bcrypt and Express Session for user authentication.</p>
+      <p>My Contributions:
+        <ul>
+          <li>Merged GitHub branches after commits</li>
+          <li>Helped to solve merge conflicts</li>
+          <li>Linked the models</li>
+          <li>Implemented the Yelp API</li>
+          <li>User authentication and session</li>
+          <li>Added session logic, so that only a logged in user can see the add, edit, or delete coffeeshops buttons/forms</li>
+          <li>Made sure forms were removed after submitting</li>
+
+        </ul>
+      </p>
+
+    </div>
+
+  </div>
+
+
+  <!-- Modal 4-->
+  <div id="modal4" class="modal">
+
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h1>Fantasy Football Comparison Tool</h1>
+      <h3>Ruby on Rails Application (Partner project)</h3>
+      <h3>Built with: HTML, CSS, Javascript, Express, Angular, Node.js, Ruby, Rails, SQL, and RESTfulrouting.</h3>
+      <h3>Partner: Mike Skelton (Pennsylvania)</h3>
+      <p>Description: You can use this Fantasy Football Comparison Tool to compare the stats of two different players to see who you should draft/start for your fantasy football team. We built the API using Ruby on Rails and SQL, and the front end was built using JS, Angular, Node.js, and Express. There are two models with full CRUD operations available. The models have a many to many relationship.</p>
+      <p>My Contributions:
+        <ul>
+          <li>Set up Rails API</li>
+          <li>Made AJAX requests to the API</li>
+          <li>Deployed CORS</li>
+          <li>Created the players' filter function</li>
+          <li>CSS</li>
+          <li>Made the site responsive</li>
+          <li>Added create, update, and delete functionality to the users model</li>
+          <li>Deployed front/backend to Heroku</li>
+          <li>Resolved merge conflicts</li>
+
+        </ul>
+      </p>
+
+    </div>
+
+  </div>
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <script src="js/rAF.js" charset="utf-8"></script>
+    <script src="js/app.js" charset="utf-8"></script>
+
+  </body>
+</html>

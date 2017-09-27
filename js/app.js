@@ -112,6 +112,10 @@ $('#modalBtn4').on('click', (e) => {
   $('#modal4').fadeIn();
   e.stopPropagation();
 });
+$('#modalBtn5').on('click', (e) => {
+  $('#modal5').fadeIn();
+  e.stopPropagation();
+});
 
 $('.close').eq(0).on('click', (e) => {
   $('.modal').fadeOut();
